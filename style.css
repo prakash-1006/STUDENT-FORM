@@ -1,0 +1,52 @@
+
+#dltbtn1{
+    background-color: red;
+}
+#header1{
+    margin-left: 390px;
+    margin-top: 120px;
+}
+
+#table{
+    border: 1px solid;
+    margin-left: 347px;
+    margin-top: 20px;
+}
+#table thead {
+    border: 1px solid;
+}
+#table thead tr td {
+    border: 1px solid;
+}
+
+
+#table tbody{
+    border: 1px solid;
+}
+#table tbody tr td{
+    border: 1px solid;
+}
+#table2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: fit-content;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 400px;
+
+}
+
+#table2 thead tr td{
+    border: 1px solid ;
+}
+#table2 tbody {
+    border: 1px solid ;
+}
+
+#table2 tbody tr td button {
+    width: 220px;
+    background-color: aqua;
+
+
+}

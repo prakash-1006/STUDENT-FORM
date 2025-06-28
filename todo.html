@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>TODO LIST</title>
+    </head>
+    <body>
+         <h1 id="header1">STUDENT FORM</h1> 
+        <table id="table2">
+            <thead id="thead2">
+                <tr>
+                    <td><b>Name</b></td>
+                    <td> <input type="text" id="nametxt"> </td>
+                </tr>
+                <tr>
+                    <td><b>Age</b></td>
+                    <td> <input  type="number" id="age">  </td>
+                </tr>
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td> 
+                        <input type="radio" id="Male" name="gender" value="Male" >
+                        <label for="Male">Male</label> 
+                        <input type="radio" id="Female" name="gender" value="Female">  
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Course</b></td>
+                    <td>
+                        <select name="course" id="selectbox">
+                           <option value="Javascript">Javascript</option>
+                           <option value="Java">Java</option>
+                           <option value="Python">Python</option>
+                           <option value="Programing in C">Programing in C</option>
+                           <option value="React.js">React.js</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+            </thead>
+            <tbody id="tablebody2">
+                <tr>
+                    <td> 
+                        <button id="savebtn" onclick="save1()">Save</button>
+                    </td>
+                </tr>
+            </tbody>
+           
+        </table>
+         
+        
+        <table id="table">
+            <thead id="thead">
+                <tr>
+                    <td><b>NAME</b></td>
+                    <td><b>AGE</b></td>
+                    <td><b>GENDER</b></td>
+                    <td><b>COURSE</b></td>
+                    <td><b>EMAIL</b></td>
+                    <td><b>ACTION</b></td>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+                
+            </tbody>
+        </table>
+       
+        <script src="script.js" ></script>
+    </body>
+</html>
